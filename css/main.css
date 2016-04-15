@@ -1,0 +1,158 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #3bb0c9;
+  font-family: "Oswald", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #a35eb5;
+  text-shadow: 2px 2px #553278;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: #f9c53d;
+  padding: 0.5em;
+  margin: 0 auto 1em auto;
+  background-color: #553278;
+  border-radius: 1rem;
+  max-width: 600px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  column-width: 5rem;
+  color: #fff;
+  background-color: #bc85c7;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  max-width: 400px;
+}
+
+.panel-1 {
+  background-color: #a35eb5;
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+.panel-1 {
+  display: none;
+}
+
+.panel-1:target {
+  display: block;
+}
+
+.panel-2 {
+  background-color: #78447d;
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+.panel-2 {
+  display: none;
+}
+
+.panel-2:target {
+  display: block;
+}
+
+.panel-3 {
+  background-color: #bc85c7;
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+}
+
+.panel-3 {
+  display: none;
+}
+
+.panel-3:target {
+  display: block;
+}
+
+.tabs {
+  margin: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.tabs > li {
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  position: relative;
+}
+
+.tabs a:hover {
+  color: #fff;
+}
+
+.tabs-1 {
+  background-color: #a35eb5;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.tabs-2 {
+  background-color: #bc85c7;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.tabs-3 {
+  background-color: #78447d;
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.whale {
+  padding: 1em;
+}
