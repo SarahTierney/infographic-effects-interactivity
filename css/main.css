@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  align-items: center;
+}
+
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -155,4 +159,60 @@ p {
 
 .whale {
   padding: 1em;
+}
+
+.crow {
+  animation: all 2s ease;
+}
+
+#crow-arm {
+  animation: crow-rotate 1s ease;
+  transform-origin: 150px 100px;
+}
+
+@keyframes crow-rotate {
+
+      0% {
+        transform: rotate(0);
+      }
+
+      33% {
+        transform: rotate(30deg);
+      }
+
+      66% {
+        transform: rotate(-30deg);
+      }
+
+      100% {
+        transform: rotate(0);
+      }
+}
+
+.dolphin {
+  animation: all 2s ease;
+}
+
+#dolphin-body {
+  animation: dolphin-rotate 1s ease;
+  transform-origin: center;
+}
+
+@keyframes dolphin-rotate {
+
+      0% {
+        transform: rotate(0);
+      }
+
+      33% {
+        transform: rotate(30deg);
+      }
+
+      66% {
+        transform: rotate(-30deg);
+      }
+
+      100% {
+        transform: rotate(0);
+      }
 }
