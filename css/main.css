@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   align-items: center;
 }
@@ -384,6 +388,36 @@ p {
       }
 }
 
+.self-bird {
+  animation: all 2s ease;
+}
+
+#mirror {
+  animation: mirror-rotate 1s ease;
+  transform-origin: center;
+}
+
+@keyframes mirror-rotate {
+
+      0% {
+        transform: rotate(0);
+      }
+
+      33% {
+        transform: rotate(30deg);
+      }
+
+      66% {
+        transform: rotate(-30deg);
+      }
+
+      100% {
+        transform: rotate(0);
+      }
+}
+
+
+
 .footprints {
   left: 0;
   height: 30px;
@@ -406,4 +440,16 @@ p {
     width: 50px;
     height: 50px;
   }
+}
+
+.everything {
+  position: relative;
+  z-index: 1000;
+}
+
+.foot {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
 }

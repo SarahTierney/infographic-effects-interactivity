@@ -1,4 +1,4 @@
-var $body = $('.banner');
+var $body = $('.foot');
 var $footprints;
 var width = $body.outerWidth();
 var height = $body.outerHeight();
