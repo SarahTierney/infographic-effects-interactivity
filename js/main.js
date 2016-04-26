@@ -14,3 +14,7 @@ for (i = 0; i < 75; i++) {
   });
   $body.append($footprints);
 }
+
+$('#crow').on('mouseover', function () {
+  $('#crow-arm').toggleClass('crow-rotate');
+});
