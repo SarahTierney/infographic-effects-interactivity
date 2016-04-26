@@ -170,6 +170,7 @@ p {
 }
 
 @media only screen and (min-width: 10em) {
+
   h1 {
     font-size: 2rem;
   }
@@ -197,6 +198,7 @@ p {
 }
 
 @media only screen and (min-width: 24em) {
+
   .tabs-1 {
     font-size: 0.75rem;
   }
@@ -208,11 +210,10 @@ p {
   .tabs-3 {
     font-size: 0.75rem;
   }
-
 }
 
-
 @media only screen and (min-width: 35em) {
+
   .tabs-1 {
     font-size: 0.75rem;
   }
@@ -228,6 +229,7 @@ p {
 }
 
 @media only screen and (min-width: 38em) {
+
   h1 {
     font-size: 3.5rem;
   }
@@ -255,6 +257,7 @@ p {
 }
 
 @media only screen and (min-width: 60em) {
+
   h1 {
     font-size: 4rem;
   }
@@ -287,21 +290,21 @@ p {
 
 @keyframes crow-rotate {
 
-      0% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
+  }
 
-      33% {
-        transform: rotate(30deg);
-      }
+  33% {
+    transform: rotate(30deg);
+  }
 
-      66% {
-        transform: rotate(-30deg);
-      }
+  66% {
+    transform: rotate(-30deg);
+  }
 
-      100% {
-        transform: rotate(0);
-      }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .dolphin {
@@ -315,21 +318,21 @@ p {
 
 @keyframes dolphin-rotate {
 
-      0% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
+  }
 
-      33% {
-        transform: rotate(30deg);
-      }
+  33% {
+    transform: rotate(30deg);
+  }
 
-      66% {
-        transform: rotate(-30deg);
-      }
+  66% {
+    transform: rotate(-30deg);
+  }
 
-      100% {
-        transform: rotate(0);
-      }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .elephant {
@@ -343,21 +346,21 @@ p {
 
 @keyframes elephant-ear-rotate {
 
-      0% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
+  }
 
-      33% {
-        transform: rotate(30deg);
-      }
+  33% {
+    transform: rotate(30deg);
+  }
 
-      66% {
-        transform: rotate(-30deg);
-      }
+  66% {
+    transform: rotate(-30deg);
+  }
 
-      100% {
-        transform: rotate(0);
-      }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .monkey {
@@ -371,21 +374,21 @@ p {
 
 @keyframes dolphin-rotate {
 
-      0% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
+  }
 
-      33% {
-        transform: rotate(30deg);
-      }
+  33% {
+    transform: rotate(30deg);
+  }
 
-      66% {
-        transform: rotate(-30deg);
-      }
+  66% {
+    transform: rotate(-30deg);
+  }
 
-      100% {
-        transform: rotate(0);
-      }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .self-bird {
@@ -394,29 +397,27 @@ p {
 
 #mirror {
   animation: mirror-rotate 1s ease;
-  transform-origin: center;
+  transform-origin: 102px 71px;
 }
 
 @keyframes mirror-rotate {
 
-      0% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
+  }
 
-      33% {
-        transform: rotate(30deg);
-      }
+  33% {
+    transform: rotate(30deg);
+  }
 
-      66% {
-        transform: rotate(-30deg);
-      }
+  66% {
+    transform: rotate(-30deg);
+  }
 
-      100% {
-        transform: rotate(0);
-      }
+  100% {
+    transform: rotate(0);
+  }
 }
-
-
 
 .footprints {
   left: 0;
@@ -425,7 +426,7 @@ p {
   top: 0;
   width: 30px;
   transform-origin: center center;
-  background: url("../images/footprints.svg") no-repeat center center / contain transparent;
+  background: url("../images/footprints.png") no-repeat center center / contain transparent;
   animation: pulse 1s infinite alternate;
 }
 
