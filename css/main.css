@@ -56,12 +56,12 @@ h3 {
 p {
   font-size: 1rem;
   font-weight: 300;
-  column-width: 5rem;
+  column-width: 30rem;
   color: #fff;
   background-color: #bc85c7;
   padding: 0.5em;
   border-radius: 0.5em;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .panel-1 {
@@ -73,6 +73,8 @@ p {
 
 .panel-1 {
   display: none;
+  max-width: 800px;
+
 }
 
 .panel-1:target {
@@ -88,6 +90,8 @@ p {
 
 .panel-2 {
   display: none;
+  max-width: 800px;
+
 }
 
 .panel-2:target {
@@ -103,6 +107,8 @@ p {
 
 .panel-3 {
   display: none;
+  max-width: 800px;
+
 }
 
 .panel-3:target {
@@ -407,7 +413,7 @@ p {
   }
 
   33% {
-    transform: rotate(30deg);
+    transform: rotate(10deg);
   }
 
   66% {
@@ -418,6 +424,35 @@ p {
     transform: rotate(0);
   }
 }
+
+.memory-bird {
+  animation: all 2s ease;
+}
+
+#memory-wing {
+  animation: wing-rotate 1s ease;
+  transform-origin: 154px 94px;
+}
+
+@keyframes wing-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(30deg);
+  }
+
+  66% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
 
 .footprints {
   left: 0;
