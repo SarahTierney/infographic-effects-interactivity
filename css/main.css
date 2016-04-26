@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+svg {
+  overflow: visible;
+}
+
 body {
   margin: 0;
 }
@@ -607,7 +611,7 @@ p {
 
 #cat-tail {
   animation: tail-rotate 1s ease;
-  transform-origin: 60px 48px;
+  transform-origin: 50px 57px;
 }
 
 @keyframes tail-rotate {
