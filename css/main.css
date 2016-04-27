@@ -66,20 +66,17 @@ p {
   padding: 0.5em;
   border-radius: 0.5em;
   max-width: 500px;
+  margin-top: 0;
 }
 
 .panel-1 {
   background-color: #a35eb5;
   border-radius: 1rem;
   padding: 1em;
-  margin: 0 1em 1em 1em;
-}
-
-.panel-1 {
   display: none;
   max-width: 900px;
   margin: 0 auto;
-
+  padding: 2em;
 }
 
 .panel-1:target {
@@ -89,14 +86,10 @@ p {
 .panel-2 {
   background-color: #78447d;
   border-radius: 1rem;
-  padding: 1em;
-  margin: 0 1em 1em 1em;
-}
-
-.panel-2 {
   display: none;
   max-width: 900px;
   margin: 0 auto;
+  padding: 2em;
 }
 
 .panel-2:target {
@@ -107,15 +100,12 @@ p {
   background-color: #bc85c7;
   border-radius: 1rem;
   padding: 1em;
-  margin: 0 1em 1em 1em;
-}
-
-.panel-3 {
   display: none;
   max-width: 900px;
   margin: 0 auto;
-
+  padding: 2em;
 }
+
 
 .panel-3:target {
   display: block;
@@ -209,6 +199,18 @@ p {
     font-size: 0.5rem;
   }
 
+  .panel-1 {
+    padding: 0.5em;
+  }
+
+  .panel-2 {
+    padding: 0.5em;
+  }
+
+  .panel-3 {
+    padding: 0.5em;
+  }
+
 }
 
 @media only screen and (min-width: 24em) {
@@ -240,6 +242,18 @@ p {
     font-size: 0.75rem;
   }
 
+  .panel-1 {
+    padding: 1em;
+  }
+
+  .panel-2 {
+    padding: 1em;
+  }
+
+  .panel-3 {
+    padding: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -268,6 +282,18 @@ p {
     font-size: 1rem;
   }
 
+  .panel-1 {
+    padding: 1.5em;
+  }
+
+  .panel-2 {
+    padding: 1.5em;
+  }
+
+  .panel-3 {
+    padding: 1.5em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -294,6 +320,18 @@ p {
 
   .tabs-3 {
     font-size: 1.5rem;
+  }
+
+  .panel-1 {
+    padding: 2em;
+  }
+
+  .panel-2 {
+    padding: 2em;
+  }
+
+  .panel-3 {
+    padding: 2em;
   }
 }
 
