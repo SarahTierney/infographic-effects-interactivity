@@ -23,7 +23,7 @@ svg {
 }
 
 body {
-  margin: 0;
+  margin: 1;
 }
 
 header {
@@ -626,6 +626,230 @@ p {
 
   66% {
     transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#insects {
+  animation: all 2s ease;
+}
+
+#grasshopper {
+  animation: hopper-spin 1s ease;
+  transform-origin: center;
+}
+
+@keyframes hopper-spin {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(180deg);
+  }
+
+  66% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#butterfly {
+  animation: butterfly-spin 1s ease;
+  transform-origin: center;
+}
+
+@keyframes butterfly-spin {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-180deg);
+  }
+
+  80% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#moth {
+  animation: moth-spin 1s ease;
+  transform-origin: center;
+}
+
+@keyframes moth-spin {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  70% {
+    transform: rotate(-200deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#plant {
+  animation: all 2s ease;
+}
+
+#plant-1 {
+  animation: plant1-rotate 1s ease;
+  transform-origin: 73px 128px;
+}
+
+@keyframes plant1-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(20deg);
+  }
+
+  66% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#plant-2 {
+  animation: plant2-rotate 1s ease;
+  transform-origin: 73px 128px;
+}
+
+@keyframes plant2-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  20% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#plant-3 {
+  animation: plant3-rotate 1s ease;
+  transform-origin: 73px 128px;
+}
+
+@keyframes plant3-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#virus {
+  animation: all 2s ease;
+}
+
+#virus-1 {
+  animation: virus1-rotate 1s ease;
+  transform-origin: center;
+}
+
+@keyframes virus1-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(20deg);
+  }
+
+  66% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#virus-2 {
+  animation: virus2-rotate 1s ease;
+  transform-origin: center;
+}
+
+@keyframes virus2-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  20% {
+    transform: rotate(-20deg);
+  }
+
+  80% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#virus-3 {
+  animation: virus3-rotate 1s ease;
+  transform-origin: center;
+}
+
+@keyframes virus3-rotate {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-60deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
   }
 
   100% {
