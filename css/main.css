@@ -528,7 +528,7 @@ p {
 }
 
 #bird-2 {
-  animation: bird-2-go 1s ease;
+  animation: bird-2-go 1.3s ease;
   transform-origin: 150px 100px;
 }
 
@@ -548,7 +548,7 @@ p {
 }
 
 #cheetah {
-  animation: cheetah-go 1s ease;
+  animation: cheetah-go 1.6s ease;
   transform-origin: 150px 100px;
 }
 
@@ -568,7 +568,7 @@ p {
 }
 
 #shark {
-  animation: shark-go 1s ease;
+  animation: shark-go 2s ease;
   transform-origin: 150px 100px;
 }
 
